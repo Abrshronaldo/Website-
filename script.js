@@ -22,6 +22,6 @@ const circle = document.getElementById("myCircle");
   
   let x = 100;
   setInterval(() => {
-    x += 50;
+    x += 20;
     circle.setAttribute("cx", x);
-  }, 100);
+  }, 1000);
