@@ -15,3 +15,13 @@ ctx.beginPath();       // start a new path
 ctx.moveTo(50, 50);    // starting point (x=50, y=50)
 ctx.lineTo(300, 150);  // ending point (x=300, y=150)
 ctx.stroke();          // actually draw the line
+
+
+const circle = document.getElementById("myCircle");
+  // Change color
+  
+  let x = 100;
+  setInterval(() => {
+    x += 2;
+    circle.setAttribute("cx", x);
+  }, 100);
