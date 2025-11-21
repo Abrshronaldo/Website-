@@ -20,8 +20,9 @@ ctx.stroke();          // actually draw the line
 const circle = document.getElementById("myCircle");
   // Change color
   
-  let x = 100;
+/*  let x = 100;
   setInterval(() => {
     x += 20;
     circle.setAttribute("cx", x);
   }, 1000);
+*/
