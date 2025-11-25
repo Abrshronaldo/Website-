@@ -48,8 +48,8 @@ let x = true;
    B+=20;
   C+=60;
   C1+=20;
-  E+=30;
-  E1+=20;
+  E+=20;
+  E1+=30;
 
 x=false;
  circle.setAttribute("cx", A);
@@ -67,8 +67,8 @@ if(x===false){
    B+=20;
   D+=60;
   D1+=20;
-  F+=30;
-  F1+=20;
+  F+=20;
+  F1+=30;
 
 x=true;
  circle.setAttribute("cx", A);
