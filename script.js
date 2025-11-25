@@ -56,9 +56,9 @@ x=false;
 lineB.setAttribute("x1", B);
 lineB.setAttribute("x2", B);
 lineC.setAttribute("x1",C);
-lineC.setAttribute("x1",C1);
+lineC.setAttribute("x2",C1);
 lineE.setAttribute("x1",E);
-   lineE.setAttribute("x1",E1);
+   lineE.setAttribute("x2",E1);
  } 
 
 
@@ -75,10 +75,10 @@ x=true;
 lineB.setAttribute("x1", B);
 lineB.setAttribute("x2", B);
 lineD.setAttribute("x1",D);
-lineD.setAttribute("x1",D1);
+lineD.setAttribute("x2",D1);
 lineF.setAttribute("x1",F);
-   lineF.setAttribute("x1",F1);
-
+   lineF.setAttribute("x2",F1);
+}
 
 
   }, 1000);
