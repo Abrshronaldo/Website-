@@ -56,7 +56,6 @@ let x = true;
   D1+=20;
   F+=20;
   F1+=20;
-x=false;
  circle.setAttribute("cx", A);
 lineB.setAttribute("x1", B);
 lineB.setAttribute("x2", B);
@@ -69,6 +68,7 @@ lineD.setAttribute("x2",D1);
 
 lineF.setAttribute("x1",F);
    lineF.setAttribute("x2",F1);
+
 
  } 
 
@@ -85,7 +85,7 @@ if(x===false){
   E+=20;
  E1+=20;
 
-x=true;
+
  circle.setAttribute("cx", A);
 lineB.setAttribute("x1", B);
 lineB.setAttribute("x2", B);
@@ -99,6 +99,8 @@ lineC.setAttribute("x2",C1);
 
 lineE.setAttribute("x1",E);
    lineE.setAttribute("x2",E1);
+
+x=true;
 }
 
 
