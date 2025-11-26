@@ -42,21 +42,20 @@ const lineF = document.getElementById("F");
   let F=100;
   let F1=110;
 let x = true;
-/*
 
 
   setInterval(() => {
     if(x===true){
     A+=20;   
    B+=20;
-  C+=50;
+  C+=70;
   C1+=20;
   E+=20;
-  E1+=50;
+  E1+=65;
   D+=20;
-  D1+=20;
+  D1-=25;
   F+=20;
-  F1+20;
+  F1-=22;
 x=false;
  circle.setAttribute("cx", A);
 lineB.setAttribute("x1", B);
@@ -77,14 +76,14 @@ lineF.setAttribute("x1",F);
 if(x===false){
     A+=20;
    B+=20;
-  D+=40;
-  D1+=20;
+  D+=20;
+  D1+=65;
   F+=20;
-  F1+=40;
+  F1+=62;
   C+=20;
-  C1+=20;
+  C1-=30;
   E+=20;
- E1+=20;
+ E1-=25;
 
 x=true;
  circle.setAttribute("cx", A);
@@ -106,4 +105,4 @@ lineE.setAttribute("x1",E);
 
   }, 1000);
 
-*/
+
