@@ -62,6 +62,12 @@ lineC.setAttribute("x1",C);
 lineC.setAttribute("x2",C1);
 lineE.setAttribute("x1",E);
    lineE.setAttribute("x2",E1);
+lineD.setAttribute("x1",D);
+lineD.setAttribute("x2",D1);
+
+lineF.setAttribute("x1",F);
+   lineF.setAttribute("x2",F1);
+
  } 
 
 
@@ -85,7 +91,14 @@ lineD.setAttribute("x1",D);
 lineD.setAttribute("x2",D1);
 lineF.setAttribute("x1",F);
    lineF.setAttribute("x2",F1);
+
+lineC.setAttribute("x1",C);
+lineC.setAttribute("x2",C1);
+
+lineE.setAttribute("x1",E);
+   lineE.setAttribute("x2",E1);
 }
+
 
 
   }, 1000);
