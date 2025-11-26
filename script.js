@@ -69,7 +69,7 @@ lineD.setAttribute("x2",D1);
 lineF.setAttribute("x1",F);
    lineF.setAttribute("x2",F1);
 
-
+x=false;
  } 
 
 
@@ -80,7 +80,7 @@ if(x===false){
   D1+=20;
   F+=20;
   F1+=20;
-  C-=70;
+  C-=30;
   C1+=20;
   E+=20;
  E1+=20;
