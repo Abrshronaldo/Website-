@@ -42,6 +42,9 @@ const lineF = document.getElementById("F");
   let F=100;
   let F1=110;
 let x = true;
+/*
+
+
   setInterval(() => {
     if(x===true){
     A+=20;   
@@ -103,3 +106,4 @@ lineE.setAttribute("x1",E);
 
   }, 1000);
 
+*/
