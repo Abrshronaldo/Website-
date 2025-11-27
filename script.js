@@ -73,7 +73,7 @@ x=false;
  } 
 
 
-if(x===false){
+else {
     A+=20;
    B+=20;
   D+=20;
@@ -99,13 +99,9 @@ lineC.setAttribute("x2",C1);
 
 lineE.setAttribute("x1",E);
    lineE.setAttribute("x2",E1);
-
+x=true;
 }
 
-if (x==true)
-x=false;
-else
-x=true;
 
   }, 1000);
 
