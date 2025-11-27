@@ -41,14 +41,16 @@ const lineF = document.getElementById("F");
   let E1=100;
   let F=100;
   let F1=110;
+  let G=240;
+
 let x = true;
 
-
+let x = 3;
+let result = Math.pow(x + 2, 2);
   setInterval(() => {
-    if(x===true){
-    A+=20;   
+     A+=20;   
    B+=20;
-  C+=70;
+  C+=25;
   C1+=20;
   E+=20;
   E1+=20;
@@ -56,6 +58,7 @@ let x = true;
   D1+=10;
   F+=20;
   F1+=20;
+  G=(25-Math.pow(100-C,2))+225;
  circle.setAttribute("cx", A);
 lineB.setAttribute("x1", B);
 lineB.setAttribute("x2", B);
@@ -68,41 +71,10 @@ lineD.setAttribute("x2",D1);
 
 lineF.setAttribute("x1",F);
    lineF.setAttribute("x2",F1);
-
-x=false;
- } 
+lineC.setAttribute("y1",G);
 
 
-else {
-    A+=20;
-   B+=20;
-  D+=20;
-  D1+=30;
-  F+=20;
-  F1+=20;
-  C-=30;
-  C1+=20;
-  E+=20;
- E1+=20;
-
-
- circle.setAttribute("cx", A);
-lineB.setAttribute("x1", B);
-lineB.setAttribute("x2", B);
-lineD.setAttribute("x1",D);
-lineD.setAttribute("x2",D1);
-lineF.setAttribute("x1",F);
-   lineF.setAttribute("x2",F1);
-
-lineC.setAttribute("x1",C);
-lineC.setAttribute("x2",C1);
-
-lineE.setAttribute("x1",E);
-   lineE.setAttribute("x2",E1);
-x=true;
-}
-
-
+} 
   }, 1000);
 
 
