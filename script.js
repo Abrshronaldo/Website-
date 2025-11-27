@@ -43,10 +43,7 @@ const lineF = document.getElementById("F");
   let F1=110;
   let G=240;
 
-let x = true;
 
-let x = 3;
-let result = Math.pow(x + 2, 2);
   setInterval(() => {
      A+=20;   
    B+=20;
