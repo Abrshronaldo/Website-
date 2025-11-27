@@ -74,7 +74,7 @@ lineF.setAttribute("x1",F);
 lineC.setAttribute("y1",G);
 
 
-} 
+ 
   }, 1000);
 
 
