@@ -72,6 +72,6 @@ lineC.setAttribute("y1",G);
 
 
  
-  }, 100);
+  }, 500);
 
 
