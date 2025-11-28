@@ -55,7 +55,7 @@ const lineF = document.getElementById("F");
   D1+=10;
   F+=20;
   F1+=20;
-  G=(25-Math.sqrt(Math.pow(C1-C,2)))+225;
+ // G=Math.sqrt((625-Math.pow(C1-C,2)))+225;
  circle.setAttribute("cx", A);
 lineB.setAttribute("x1", B);
 lineB.setAttribute("x2", B);
