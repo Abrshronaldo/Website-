@@ -10,48 +10,19 @@
 <head>
 
 
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src
+="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Load Babel to compile JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My First GitHub Page</title>
   <style>
-    body {
-
-     padding: 0px;
-    margin: 0;
-      font-family: Arial, sans-serif;
-      text-align:left;
-         background-color: #f0f0f0;
-    }
-     a{
-     color: #333;
-    }
-
-
-    .hero {
-
-     padding: 0px;
-      position: static;
-      background-image: url('Abrsh.png'); /* your image file */
-      background-size: cover;          /* make image cover the div */
-      background-position: center;     /* center the image */
-      height: 400px;                   /* adjust height */
-      color: white;                    /* text color */
-      display: flex;                   /* easy centering */
-      justify-content: center;         /* horizontal center */
-      align-items: center;             /* vertical center */
-      text-align: center;
-    }
-
-    .hero h1 {
-
-    position: static;
-      font-size: 3em;
-      background: rgba(0,0,0,0.5);     /* optional: semi-transparent box */
-      padding: 10px 20px;
-      border-radius: 8px;
-    }
-
-
+      
+   
     h1 {
 
    position: fixed;
@@ -59,53 +30,25 @@
 margin-top: 0px;   
    color: #333;
     }
-h2 {
-position:fixed;
-}
-    p {
-      font-size: 18px;
-          padding: 10px;
-
-
-    margin-top: 0px;
-    }
-
-p{
-margin-top: 0px;
-}
-
 
 
   </style>
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
+  <h1>please restart</h1>
 
+    <div id="root"></div>
 
-    <a href="about.html">About Us</a>
-<h2>Yo what's up</h2> 
-<header> 
-   
+    <!-- Your React code -->
+    <script type="text/babel">
+      function App() {
+        return <h1>Hello, React!</h1>;
+      }
 
-<h2>header</h2>
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+    </script>  
 
-</header>
-<div class="hero">
-    <h1>Welcome to My Website!</h1>
-  </div>
-
-<button id="myButton">Click Me</button>
-
-
-
-  <p id="demo">This is a simple page hosted on GitHub Pages</p>
-
-
-  
-<p>any thing you want it I can get it for you.</p>
-
-  
-<script src="script.js"></script>
 </body>
 </html>
 
