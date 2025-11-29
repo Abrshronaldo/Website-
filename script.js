@@ -15,10 +15,13 @@ function Counter() {
     <div>
       <h1>Count: {count}</h1>
       <button onClick={() => setCount(count + 1)}>Increase</button>
+
       <button onClick={() => setCount(count - 1)}>Decrease</button>
+    <Counter />
+
     </div>
   );
 }
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-root.render(<Counter />);
+
