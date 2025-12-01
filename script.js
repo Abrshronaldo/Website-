@@ -3,7 +3,11 @@
 
 
 
+// Define AngularJS app
+var app = angular.module("myApp", []);
 
-function myCtrl($scope) {
-      $scope.name = "Ab"; // initial value
-    }
+// Register controller
+app.controller("myCtrl", function($scope) {
+  $scope.name = "Ab"; // initial value
+});
+
