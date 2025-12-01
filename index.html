@@ -9,13 +9,8 @@
 
 <head>
 
-
-<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src
-="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <!-- Load Babel to compile JSX in the browser -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+ 
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,11 +29,15 @@ margin-top: 0px;
 
   </style>
 </head>
-<body>
-     <div id="root"></div>
+<body ng-controller="myCtrl">
+     
 
-    <!-- Your React code -->
-    <script type="text/babel" src="script.js"></script>  
+ <input ng-model="name" placeholder="Type your name">
+
+  <!-- Output automatically updates -->
+  <p>Hello, {{name}}!</p>
+
+    <script src="script.js"></script>  
 </body>
 </html>
 
