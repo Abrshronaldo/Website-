@@ -3,30 +3,21 @@
 
 
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My First GitHub Page</title>
-  <style>
-    h1 {
-      position: fixed;
-      margin-top: 0px;
-      color: #333;
-    }
-  </style>
-  <!-- Correct AngularJS script -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <title>Login Page</title>
 </head>
-<body ng-controller="myCtrl">
-  <h1>Welcome</h1>
+<body>
+  <h2>Login</h2>
+  <form action="/login" method="post">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
 
-  <input ng-model="name" placeholder="Type your name">
-  <p>Hello, {{name}}!</p>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
 
-<script src="script.js"></script>
-
-  
+    <button type="submit">Login</button>
+  </form>
 </body>
 </html>
 
