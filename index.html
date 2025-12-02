@@ -3,45 +3,34 @@
 
 
 <!DOCTYPE html>
-
-<html lang="en">
-
-
+<html lang="en" ng-app="myApp">
 <head>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
- 
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My First GitHub Page</title>
   <style>
-      
-   
     h1 {
-
-   position: fixed;
-     
-margin-top: 0px;   
-   color: #333;
+      position: fixed;
+      margin-top: 0px;
+      color: #333;
     }
-
-
   </style>
+  <!-- Correct AngularJS script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 </head>
 <body ng-controller="myCtrl">
-     
+  <h1>Welcome</h1>
 
- <input ng-model="name" placeholder="Type your name">
-
-  <!-- Output automatically updates -->
+  <input ng-model="name" placeholder="Type your name">
   <p>Hello, {{name}}!</p>
 
-    <script src="script.js"></script>  
+  <script>
+    // Define AngularJS app + controller
+    var app = angular.module("myApp", []);
+    app.controller("myCtrl", function($scope) {
+      $scope.name = "Ab"; // initial value
+    });
+  </script>
 </body>
 </html>
-
-
-
-
 
