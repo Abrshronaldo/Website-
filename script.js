@@ -1,7 +1,7 @@
 
 
 
-  import confetti from 'https://jsdelivr.net';
+ import  confetti from 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/+esm';
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     // Prevent the default browser form submission/redirect
@@ -20,13 +20,13 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         if (response.ok) {
             const join=document.getElementById('join');
    join.textContent='joined';
-      join.addEventListener('click', () => {
+      
     confetti({
       particleCount: 150,  // Number of confetti pieces
       spread: 70,          // Angle spread of the blast
       origin: { y: 0.6 }   // Start slightly above the bottom window edge
     });
-  });            
+            
 
 
             this.reset(); 
