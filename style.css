@@ -23,10 +23,7 @@ body {
 .login-container {
     background: #ffffff;
     padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
+   margin-top:60px;    
 }
 
 h2 {
@@ -64,7 +61,8 @@ h2 {
 
 
 .login-btn {
-    width: 100%;
+    
+
     padding: 12px;
     background-color: #007bff;
     color: white;
