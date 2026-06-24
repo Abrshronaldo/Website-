@@ -24,10 +24,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
    confetti({
   particleCount: 150,
   spread: 60,
-  origin: { y: 0.6 }, // Starts lower (60% down the screen) so you can see the arc
+  origin: { y: 0.6 }, 
   startVelocity: 15,  // Cuts the initial upward blast speed in half
   gravity: 1.0,       // Standard gravity so it falls at a natural pace
-  ticks: 200          // Gives it more time to finish falling before disappearing
+  ticks: 150          // Gives it more time to finish falling before disappearing
 });
 
             this.reset(); 

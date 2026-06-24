@@ -23,7 +23,7 @@ body {
 .login-container {
     background: #ffffff;
     padding: 40px;
-   transform: translateY(100px)
+   transform: translateY(150px)
   transform: translateX(50px)
 }
 
@@ -117,7 +117,7 @@ position: fixed;
 }
 
 .title {
-  transform: translateX(60px)  translateY(40px);
+  transform: translateX(60px)  translateY(30px);
 
 }
 
