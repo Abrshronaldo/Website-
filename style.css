@@ -14,16 +14,14 @@
 body {
     background: #ffffff;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+       height: 100vh;
 }
 
 /* The Login Card Box */
 .login-container {
     background: #ffffff;
     padding: 40px;
-   transform: translateY(140px); 
+   margin-left:200px;
 }
 
 h2 {
@@ -34,8 +32,7 @@ h2 {
 
 /* Form Groups */
 .input-group {
-    margin-bottom: 10px;
-   margin-left:30px;
+   
     
 }
 
