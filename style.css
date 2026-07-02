@@ -21,7 +21,7 @@ body {
 .login-container {
     background: #ffffff;
     padding: 0px;
-    margin:150px 50px 0 0;
+    margin:150px 0 0 50px;
   width:70%;
 
 }
@@ -169,6 +169,11 @@ margin-top:140px;
   right: 0; 
 }
 
+
+.nav-menu.shifted {
+  right: -50%;
+}
+
 /* List Formatting */
 .nav-menu ul {
   list-style: none;
@@ -196,10 +201,10 @@ margin-top:140px;
 /* Style the X button */
 .nav-menu .close-btn {
   position: absolute;
-  top: 15px;          /* Distance from the top */
-  right: 20px;        /* Distance from the right */
-  font-size: 30px;    /* Makes the X look large and clear */
-  color: #333;        /* Change color to match your theme */
+  top: 13px;          /* Distance from the top */
+  right: 15px;
+  font-size: 35px; 
+  color: #FFF; 
   text-decoration: none;
   cursor: pointer;
   line-height: 1;     /* Prevents weird vertical alignment issues */

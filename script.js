@@ -53,3 +53,13 @@ menuToggle.addEventListener('click', () => {
 });
     
 
+
+
+
+document.getElementById('home-link').addEventListener('click', function(event) {
+  // Prevent the default link behavior (jumping to the top of the page)
+  
+  navMenu.classList.toggle('shifted');
+});
+
+    
