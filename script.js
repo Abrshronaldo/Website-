@@ -49,7 +49,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
 menuToggle.addEventListener('click', () => {
   // This switches the .active class on and off when clicked
+   
   navMenu.classList.toggle('active');
+   navMenu.classList.remove('shifted');
+
 });
     
 
@@ -60,6 +63,9 @@ document.getElementById('home-link').addEventListener('click', function(event) {
   // Prevent the default link behavior (jumping to the top of the page)
   
   navMenu.classList.toggle('shifted');
+
+navMenu.classList.remove('active');
+
 });
 
     

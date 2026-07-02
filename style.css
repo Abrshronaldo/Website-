@@ -20,8 +20,8 @@ body {
 /* The Login Card Box */
 .login-container {
     background: #ffffff;
-    padding: 0px;
-    margin:150px 0 0 50px;
+    padding: 4px;
+    margin:150px 0 0 70px;
   width:70%;
 
 }
@@ -40,7 +40,7 @@ width:100%;
 
 .input-group input {
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
