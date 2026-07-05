@@ -246,7 +246,7 @@ h2 {
      margin-top:100px;
         height: 100px;       /* Set a fixed height that fits your footer */
         width: 100%;         /* Keeps the image proportions perfect */
-        object-fit: contain; /* Prevents stretching */
+        object-fit: fill; 
         opacity: 0.8;        /* Optional: slightly blends dark themes */
     }
 
