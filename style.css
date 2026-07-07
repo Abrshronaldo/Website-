@@ -106,7 +106,7 @@ position: fixed;
 }
 
 .hero-content {
-display:inline-flex;
+display:inline-block;
  position: fixed;
   top: 0;
  
@@ -116,7 +116,7 @@ display:inline-flex;
 
 .title {
   
-  transform: translateX(80px)  translateY(68px);
+  transform: translateX(10px)  translateY(68px);
 
 }
 
