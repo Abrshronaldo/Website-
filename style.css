@@ -260,7 +260,7 @@ h2 {
 border-radius: 10px; 
    margin :100px 20px 50px 20px;
  opacity:0.3;
-  border:3px solid black;
+  border:1px solid black;
 
 }
 
@@ -287,7 +287,7 @@ background: linear-gradient(45deg, #102a43 0%, #3f51b5 20%, #00a1ff 60%, #a7f3d0
 .stats-label {
   font-size: 0.875rem;        /* Smaller text for hierarchy */
   font-weight: 500;
-  color: #1A1A1A;
+  color: #464646;
   text-transform: uppercase;  /* Optional: modern uppercase look */
   letter-spacing: 0.5px;       /* Slight spacing for readability */
   margin-top: 4px;            /* Gap between number and text */
