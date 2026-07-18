@@ -37,8 +37,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
 
 const loginContainer = document.getElementById('login-container');
-  const thankYouContainer = document.getElementById('thank');
-  
+   
   // 3. Swap them out
   loginContainer.style.display = 'none';
   thankYouContainer.style.display = 'block';
