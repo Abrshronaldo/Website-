@@ -35,13 +35,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
             form.reset(); 
 
-
-const loginContainer = document.getElementById('login-container');
-   
-  // 3. Swap them out
-  loginContainer.style.display = 'none';
-  thankYouContainer.style.display = 'block';
-        } else {
+          } else {
             alert('Something went wrong. Please try again.');
         }
     })
